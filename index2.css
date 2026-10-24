@@ -1,0 +1,112 @@
+
+/* Student Board */
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.stat-card {
+    background: #173b57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.stat-card p {
+    font-size: 24px;
+    font-weight: bold;
+/* Student Board */
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.stat-card {
+    background: #173b57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.stat-card p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.student-card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h3 {
+    margin-top: 0;
+}
+
+.student-card.high-score {
+    border: 3px solid green;
+    background: #e8f8e8;
+}
+
+.student-card.failed {
+    border: 3px solid red;
+    background: #ffe5e5;
+}
+
+@media (max-width: 600px) {
+    .student-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+}
+
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.student-card {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h3 {
+    margin-top: 0;
+}
+
+.student-card.high-score {
+    border: 3px solid green;
+    background: #e8f8e8;
+}
+
+.student-card.failed {
+    border: 3px solid red;
+    background: #ffe5e5;
+}
+
+@media (max-width: 600px) {
+    .student-grid {
+        grid-template-columns: 1fr;
+    }
+}
